@@ -1,0 +1,484 @@
+[18-Sep-2023 10:17:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[18-Sep-2023 10:17:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[18-Sep-2023 10:29:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[18-Sep-2023 10:29:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[18-Sep-2023 11:51:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[18-Sep-2023 11:51:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 508
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '4', 'univ_session_id' => '5', 'univ_course_id' => '5', 'university_specialization_id' => '6', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '4000', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '4', 'univ_session_id' => '5', 'univ_course_id' => '5', 'university_specialization_id' => '6', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '4000', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '4', 'univ_session_id' => '5', 'univ_course_id' => '5', 'university_specialization_id' => '6', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '4000', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:52:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /var/www/html/CampushalaNewProject/require/module/crud.php:516
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(516): htmlentities()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(269): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 516
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 508
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '4', 'univ_session_id' => '5', 'univ_course_id' => '5', 'university_specialization_id' => '6', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '4000', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '4', 'univ_session_id' => '5', 'univ_course_id' => '5', 'university_specialization_id' => '6', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '4000', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '4', 'univ_session_id' => '5', 'univ_course_id' => '5', 'university_specialization_id' => '6', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '4000', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:52:57 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /var/www/html/CampushalaNewProject/require/module/crud.php:516
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(516): htmlentities()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(269): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 516
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 508
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '1', 'univ_session_id' => '1', 'univ_course_id' => '1', 'university_specialization_id' => '1', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '200', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '1', 'univ_session_id' => '1', 'univ_course_id' => '1', 'university_specialization_id' => '1', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '200', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '1', 'univ_session_id' => '1', 'univ_course_id' => '1', 'university_specialization_id' => '1', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '200', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:55:42 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /var/www/html/CampushalaNewProject/require/module/crud.php:516
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(516): htmlentities()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(269): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 516
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 508
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '1', 'univ_session_id' => '1', 'univ_course_id' => '1', 'university_specialization_id' => '1', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '200', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '1', 'univ_session_id' => '1', 'univ_course_id' => '1', 'university_specialization_id' => '1', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '200', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP   2. INSERT_DATA_WITHOUT_RESPONSE($tablename = 'universities_courses_specializations_fees', $RequestedData = ['university_id' => '1', 'univ_session_id' => '1', 'univ_course_id' => '1', 'university_specialization_id' => '1', 'univ_course_spec_fee_mode_type' => 'Years Wise', 'univ_course_spec_fee_name' => '1', 'univ_course_spec_fee_value' => '200', 'univ_course_spec_fee_sem_name' => 2, 'univ_course_spec_fee_sem_value' => [0 => 0, 1 => 0], 'created_by' => '1', 'updated_by' => '1'], $Response = *uninitialized*, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/UniversityController.php:269
+[18-Sep-2023 11:56:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /var/www/html/CampushalaNewProject/require/module/crud.php:516
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(516): htmlentities()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(269): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 516
+[18-Sep-2023 11:58:40 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, int given in /var/www/html/CampushalaNewProject/controller/UniversityController.php:257
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/controller/UniversityController.php(257): implode()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 257
+[18-Sep-2023 11:59:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, int given in /var/www/html/CampushalaNewProject/controller/UniversityController.php:257
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/controller/UniversityController.php(257): implode()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 257
+[18-Sep-2023 13:17:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[18-Sep-2023 13:17:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[18-Sep-2023 13:37:54 Asia/Calcutta] PHP Warning:  Undefined variable $OneTimeSemNames in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 578
+[18-Sep-2023 13:37:54 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 13:37:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[18-Sep-2023 14:09:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND sfc.payment_sta...' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(79): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 554
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 656
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 656
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:15:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 660
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 660
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 558
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 660
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 660
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:19:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 575
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:31:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:32:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 576
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:33:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:34:25 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:34:25 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:34:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:34:25 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:34:25 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:34:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:35:25 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:35:25 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:35:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:35:25 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 677
+[18-Sep-2023 15:35:25 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:35:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:36:41 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 680
+[18-Sep-2023 15:36:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:36:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:36:41 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 680
+[18-Sep-2023 15:36:41 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:36:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:36:43 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 680
+[18-Sep-2023 15:36:43 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:36:43 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:36:43 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 680
+[18-Sep-2023 15:36:43 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:36:43 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:38:46 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 680
+[18-Sep-2023 15:38:46 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:38:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 15:38:46 Asia/Calcutta] PHP Warning:  Attempt to read property "discount_mode" on string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 680
+[18-Sep-2023 15:38:46 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 15:38:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 16:43:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/add.php(59): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[18-Sep-2023 16:43:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[18-Sep-2023 17:03:54 Asia/Calcutta] PHP Warning:  Undefined variable $TotalAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 584
+[18-Sep-2023 17:03:54 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:03:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 17:03:54 Asia/Calcutta] PHP Warning:  Undefined variable $TotalAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 584
+[18-Sep-2023 17:03:54 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:03:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 17:08:22 Asia/Calcutta] PHP Warning:  Undefined variable $TotalAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 578
+[18-Sep-2023 17:08:22 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:08:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 17:08:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: null + stdClass in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:578
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 578
+[18-Sep-2023 17:09:46 Asia/Calcutta] PHP Warning:  Object of class stdClass could not be converted to int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 578
+[18-Sep-2023 17:09:46 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:09:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 17:09:46 Asia/Calcutta] PHP Warning:  Undefined variable $TotalAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 578
+[18-Sep-2023 17:09:46 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:09:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 17:11:01 Asia/Calcutta] PHP Warning:  Undefined variable $TotalAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 578
+[18-Sep-2023 17:11:01 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:11:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 17:12:09 Asia/Calcutta] PHP Warning:  Undefined variable $TotalAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 578
+[18-Sep-2023 17:12:09 Asia/Calcutta] PHP Stack trace:
+[18-Sep-2023 17:12:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[18-Sep-2023 21:41:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[18-Sep-2023 21:41:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15

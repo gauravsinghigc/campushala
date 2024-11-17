@@ -1,0 +1,67 @@
+[10-May-2024 06:37:20 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[10-May-2024 06:37:20 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[10-May-2024 06:37:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 06:37:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 09:24:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 09:24:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 09:24:12 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 10:33:36 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 10:33:44 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 14:02:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 14:03:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 15:10:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 18:37:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 18:37:13 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[10-May-2024 18:46:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66

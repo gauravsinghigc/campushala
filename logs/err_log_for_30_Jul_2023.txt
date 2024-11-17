@@ -1,0 +1,114 @@
+[30-Jul-2023 12:12:20 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /var/www/html/CampushalaNewProject/config/config.php on line 54
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/devicetypecheck.php on line 6
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/deviceinfo.php on line 14
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:12:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /var/www/html/CampushalaNewProject/config/config.php on line 54
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/devicetypecheck.php on line 6
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/deviceinfo.php on line 14
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:12:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /var/www/html/CampushalaNewProject/config/config.php on line 54
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. require() /var/www/html/CampushalaNewProject/require/modules.php:5
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/url.php:19
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/url.php:19
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/devicetypecheck.php on line 6
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   4. DEVICE_TYPE() /var/www/html/CampushalaNewProject/require/module/devicetypecheck.php:23
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/deviceinfo.php on line 14
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/deviceinfo.php:15
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/deviceinfo.php:15
+[30-Jul-2023 12:36:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "SERVER_NAME" in /var/www/html/CampushalaNewProject/config/config.php on line 54
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. require() /var/www/html/CampushalaNewProject/require/modules.php:5
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/url.php:19
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/url.php:19
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/devicetypecheck.php on line 6
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   4. DEVICE_TYPE() /var/www/html/CampushalaNewProject/require/module/devicetypecheck.php:23
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /var/www/html/CampushalaNewProject/require/module/deviceinfo.php on line 14
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/CampushalaNewProject/require/module/url.php on line 10
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/deviceinfo.php:15
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/CampushalaNewProject/require/module/url.php on line 13
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP Stack trace:
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:0
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   2. require() /var/www/html/CampushalaNewProject/admin/account/fees/index.php:4
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   3. include() /var/www/html/CampushalaNewProject/require/modules.php:50
+[30-Jul-2023 12:36:37 Asia/Calcutta] PHP   4. GET_URL() /var/www/html/CampushalaNewProject/require/module/deviceinfo.php:15
+[30-Jul-2023 12:36:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62

@@ -1,0 +1,80 @@
+[05-Oct-2023 10:42:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[05-Oct-2023 10:42:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:43:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:43:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 10:44:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[05-Oct-2023 11:45:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/edit.php(58): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[05-Oct-2023 11:45:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Oct-2023 11:53:45 Asia/Kolkata] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[05-Oct-2023 11:53:45 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 11:53:45 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/invoice/index.php:0
+[05-Oct-2023 11:53:45 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[05-Oct-2023 11:53:45 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 11:53:45 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/invoice/index.php:0
+[05-Oct-2023 11:54:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[05-Oct-2023 11:56:00 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[05-Oct-2023 11:56:00 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 11:56:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[05-Oct-2023 11:56:00 Asia/Kolkata] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[05-Oct-2023 12:40:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Oct-2023 12:40:07 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[05-Oct-2023 12:40:07 Asia/Kolkata] PHP Stack trace:
+[05-Oct-2023 12:40:07 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[05-Oct-2023 12:40:07 Asia/Kolkata] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[05-Oct-2023 16:41:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66

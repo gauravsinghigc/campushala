@@ -1,0 +1,294 @@
+[14-Aug-2023 10:04:52 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[14-Aug-2023 10:05:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[14-Aug-2023 10:08:48 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:524
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 524
+[14-Aug-2023 10:32:17 Asia/Calcutta] PHP Warning:  Undefined array key "studFeeModesId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 341
+[14-Aug-2023 10:32:17 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 10:32:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 10:32:17 Asia/Calcutta] PHP Warning:  Undefined array key "specilizationFeesId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 352
+[14-Aug-2023 10:32:17 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 10:32:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 10:33:47 Asia/Calcutta] PHP Warning:  Undefined array key "studFeeModesId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 341
+[14-Aug-2023 10:33:47 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 10:33:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 10:33:47 Asia/Calcutta] PHP Warning:  Undefined array key "specilizationFeesId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 352
+[14-Aug-2023 10:33:47 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 10:33:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 10:35:30 Asia/Calcutta] PHP Warning:  Undefined array key "studFeeModesId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 341
+[14-Aug-2023 10:35:30 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 10:35:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 10:35:30 Asia/Calcutta] PHP Warning:  Undefined array key "specilizationFeesId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 352
+[14-Aug-2023 10:35:30 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 10:35:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:24 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 11:25:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:03:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:04:11 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 439
+[14-Aug-2023 12:04:11 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:04:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:04:11 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[14-Aug-2023 12:04:11 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:04:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:22:59 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 12:23:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 13:07:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 13:37:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(648): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Aug-2023 14:04:28 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$st in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:04:28 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:04:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:04:28 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$st in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:04:28 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:04:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:10 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:10 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:10 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:10 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:10 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:51 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:51 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:51 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:05:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:06:57 Asia/Calcutta] PHP Warning:  Undefined variable $fee_mode in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:06:57 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:06:57 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:06:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$ in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 666
+[14-Aug-2023 14:06:57 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:06:57 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:11:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:11:21 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:12:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 442
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP Warning:  Undefined variable $semesterName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 464
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:13:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:58:02 Asia/Calcutta] PHP Warning:  Undefined array key "SearchValue" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 648
+[14-Aug-2023 14:58:02 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:58:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 14:59:37 Asia/Calcutta] PHP Warning:  Undefined array key "SearchValue" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 648
+[14-Aug-2023 14:59:37 Asia/Calcutta] PHP Stack trace:
+[14-Aug-2023 14:59:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[14-Aug-2023 15:03:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'student_id' in where clause is ambiguous in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(655): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Aug-2023 17:23:39 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[14-Aug-2023 17:23:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[14-Aug-2023 18:06:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[14-Aug-2023 18:07:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15

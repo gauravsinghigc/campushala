@@ -1,0 +1,365 @@
+[22-Sep-2023 09:47:16 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[22-Sep-2023 09:48:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[22-Sep-2023 09:48:20 Asia/Calcutta] PHP Warning:  Undefined variable $semsterCheck in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 470
+[22-Sep-2023 09:48:20 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 09:48:20 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 09:48:20 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 470
+[22-Sep-2023 09:48:20 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 09:48:20 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 10:02:08 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:389
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 389
+[22-Sep-2023 10:02:20 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:389
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 389
+[22-Sep-2023 12:46:24 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:46:24 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:46:24 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:46:28 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:46:28 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:46:28 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:46:31 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:46:31 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:46:31 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:46:33 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:46:33 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:46:33 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:47:33 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[22-Sep-2023 12:47:33 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 12:47:33 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[22-Sep-2023 12:47:33 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[22-Sep-2023 12:47:42 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[22-Sep-2023 12:47:45 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:47:45 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:47:45 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:47:47 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:47:47 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:47:47 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:47:49 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:47:49 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:47:49 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:47:52 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:47:52 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:47:52 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:48:07 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:48:07 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:48:07 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:48:12 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:48:12 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:48:12 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:48:15 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:48:15 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:48:15 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:48:18 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:48:18 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:48:18 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:48:22 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:48:22 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:48:22 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:49:20 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:49:20 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:49:20 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:49:29 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:49:29 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:49:29 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:13 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:50:13 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:13 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:32 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:50:32 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:32 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:34 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:50:34 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:34 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:36 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:50:36 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:36 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:43 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:50:43 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:43 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:46 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:50:46 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:46 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:50:50 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:50:50 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:50:50 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:51:46 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:51:46 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:51:46 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:51:51 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:51:51 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:51:51 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:51:53 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:51:53 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:51:53 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:00 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:52:00 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:52:00 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:08 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:52:08 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:52:08 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:14 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:52:14 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:52:14 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:18 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:52:18 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:52:18 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:21 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:52:21 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:52:21 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:24 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:52:24 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 12:52:24 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:40 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:52:40 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:52:40 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:52:47 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:52:47 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:52:47 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:53:33 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:53:33 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:53:33 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:53:37 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:53:37 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:53:37 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:53:41 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:53:41 Asia/Calcutta] FeeModeType: 2
+[22-Sep-2023 12:53:41 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='2' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:53:42 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:53:42 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:53:42 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:53:44 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:53:44 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:53:44 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:53:50 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:53:50 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:53:50 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:54:34 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:54:34 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:54:34 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:54:46 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:54:46 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:54:46 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:54:49 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:54:49 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:54:49 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:54:51 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:54:51 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:54:51 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:54:55 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:54:55 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:54:55 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:54:58 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 12:54:58 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:54:58 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:55:00 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:55:00 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:55:00 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:55:03 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:55:03 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:55:03 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:55:04 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:55:04 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:55:04 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:55:44 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:55:44 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:55:44 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:55:47 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:55:47 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:55:47 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:55:51 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:55:51 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:55:51 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:56:00 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:56:00 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:56:00 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:57:13 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:57:13 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:57:13 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:57:16 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:57:16 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:57:16 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:57:20 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 12:57:20 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:57:20 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:57:22 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:57:22 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:57:22 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:58:07 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 12:58:07 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:58:07 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:58:09 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:58:09 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:58:09 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 12:58:12 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 12:58:12 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 12:58:12 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:00 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 13:00:00 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:00:00 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:02 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 13:00:02 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:00:02 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:04 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 13:00:04 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:00:04 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:40 Asia/Calcutta] FeeMode: Years Wise
+[22-Sep-2023 13:00:40 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:00:40 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Years Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_sem_name='1' OR sfc.fee_mode_sem_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:42 Asia/Calcutta] FeeMode: One Time
+[22-Sep-2023 13:00:42 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:00:42 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='One Time' OR sfc.fee_mode='N/A') AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:45 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:00:45 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:00:45 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:47 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:00:47 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 13:00:47 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:50 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:00:50 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 13:00:50 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:00:51 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:00:51 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 13:00:51 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:01:04 Asia/Calcutta] FeeMode: Semesters Wise
+[22-Sep-2023 13:01:04 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:01:04 Asia/Calcutta] SQL Query:  upd.university_id='1' AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:01:07 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:01:07 Asia/Calcutta] FeeModeType: 1
+[22-Sep-2023 13:01:07 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='1' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:01:10 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:01:10 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 13:01:10 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Pending'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 13:01:12 Asia/Calcutta] FeeMode: Registration Fee
+[22-Sep-2023 13:01:12 Asia/Calcutta] FeeModeType: Registration Amount
+[22-Sep-2023 13:01:12 Asia/Calcutta] SQL Query:  upd.university_id='1' AND usy.univ_session_id='1' AND (sfc.fee_mode='Registration Fee' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_name='Registration Amount' OR sfc.fee_mode_name='N/A' ) AND sfc.payment_status='Done'ORDER BY spd.student_id DESC LIMIT 0, 10
+[22-Sep-2023 14:24:30 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:24:32 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:25:09 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:26:42 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:26:47 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:27:59 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:28:37 Asia/Calcutta] PHP Warning:  Undefined array key 2 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 734
+[22-Sep-2023 14:28:37 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 14:28:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 14:30:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:30:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:32:41 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:32:46 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:33:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:33:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:34:14 Asia/Calcutta] PHP Warning:  Undefined array key 2 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 734
+[22-Sep-2023 14:34:14 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 14:34:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 14:46:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:46:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 14:46:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:492
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 492
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 478
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined array key "" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $TotalSemesterOutstandingAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 512
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 478
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined array key "" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $TotalSemesterOutstandingAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 512
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 478
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined array key "" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $TotalSemesterOutstandingAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 512
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 478
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $feeSemNameKey in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined array key "" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 508
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Warning:  Undefined variable $TotalSemesterOutstandingAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 512
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP Stack trace:
+[22-Sep-2023 16:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0

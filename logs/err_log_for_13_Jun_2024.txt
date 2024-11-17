@@ -1,0 +1,59 @@
+[13-Jun-2024 13:26:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[13-Jun-2024 13:29:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[13-Jun-2024 13:29:22 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/logout.php on line 5
+[13-Jun-2024 13:30:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[13-Jun-2024 13:31:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u447740167_campushala_dem.universities_courses_offers' doesn't exist in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php:114
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(114): mysqli_query()
+#1 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(253): SELECT()
+#2 /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php on line 114
+[13-Jun-2024 13:33:50 Asia/Kolkata] PHP Warning:  Undefined array key "courseId" in /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/UniversityAjaxController.php on line 133
+[13-Jun-2024 13:33:50 Asia/Kolkata] PHP Warning:  Undefined array key "sessionId" in /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/UniversityAjaxController.php on line 110
+[13-Jun-2024 13:33:51 Asia/Kolkata] PHP Warning:  Undefined array key "courseFeesType" in /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/UniversityAjaxController.php on line 173
+[13-Jun-2024 13:33:51 Asia/Kolkata] PHP Warning:  Undefined array key "courseFeesType" in /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/UniversityAjaxController.php on line 177
+[13-Jun-2024 13:37:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u447740167_campushala_dem.universities_courses_offers' doesn't exist in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php:114
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(114): mysqli_query()
+#1 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(253): SELECT()
+#2 /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php on line 114
+[13-Jun-2024 13:37:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u447740167_campushala_dem.universities_courses_offers' doesn't exist in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php:114
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(114): mysqli_query()
+#1 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(253): SELECT()
+#2 /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php on line 114
+[13-Jun-2024 13:38:20 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/university/edit.php on line 208
+[13-Jun-2024 13:38:20 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/university/edit.php on line 211
+[13-Jun-2024 13:38:20 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/university/edit.php on line 224
+[13-Jun-2024 13:38:40 Asia/Kolkata] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/invoice/index.php on line 224
+[13-Jun-2024 13:38:40 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/invoice/index.php on line 224
+[13-Jun-2024 13:38:46 Asia/Kolkata] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/invoice/index.php on line 224
+[13-Jun-2024 13:38:46 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/account/invoice/index.php on line 224
+[13-Jun-2024 13:44:38 Asia/Kolkata] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/logout.php on line 5
+[13-Jun-2024 18:26:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[13-Jun-2024 19:41:09 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66

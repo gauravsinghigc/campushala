@@ -1,0 +1,221 @@
+[19-Aug-2023 10:06:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[19-Aug-2023 10:06:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[19-Aug-2023 11:00:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(178): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[19-Aug-2023 11:00:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(178): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[19-Aug-2023 11:01:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(178): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[19-Aug-2023 11:01:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(178): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[19-Aug-2023 11:26:50 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 423
+[19-Aug-2023 11:26:50 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 11:26:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[19-Aug-2023 11:36:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 11:39:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 11:56:53 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 74
+[19-Aug-2023 11:56:53 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 11:56:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 11:58:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(120): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 11:58:39 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 74
+[19-Aug-2023 11:58:39 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 11:58:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 11:59:58 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 74
+[19-Aug-2023 11:59:58 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 11:59:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Warning:  Undefined array key "univ_course_spec_fee_mode_type" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 97
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Warning:  Undefined array key "univ_course_spec_total_fee_value" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 104
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Warning:  Undefined array key "univ_course_spec_fee_mode_type" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 97
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Warning:  Undefined array key "univ_course_spec_total_fee_value" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 104
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Warning:  Undefined array key "univ_course_spec_fee_mode_type" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 97
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Warning:  Undefined array key "univ_course_spec_total_fee_value" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 104
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:02:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:08:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:09:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:22:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:26:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ucs.univ_course_specialization_fee_id' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(288): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(252): FETCH_DATA()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:26:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:27:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:29:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:31:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:37:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:38:18 Asia/Calcutta] PHP Warning:  Undefined variable $oneTimeFees in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 284
+[19-Aug-2023 12:38:18 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:38:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:38:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:43:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:43:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:43:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP Warning:  Undefined array key "StudentId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 251
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP Warning:  Undefined array key "StudentId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 253
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP Stack trace:
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[19-Aug-2023 12:44:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:45:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:45:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 12:46:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[19-Aug-2023 13:00:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114

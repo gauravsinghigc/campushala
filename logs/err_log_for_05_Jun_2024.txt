@@ -1,0 +1,16 @@
+[05-Jun-2024 03:35:01 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[05-Jun-2024 03:35:01 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[05-Jun-2024 03:35:03 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[05-Jun-2024 03:35:03 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[05-Jun-2024 03:35:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[05-Jun-2024 03:35:04 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[05-Jun-2024 03:35:04 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[05-Jun-2024 11:19:20 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66

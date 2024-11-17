@@ -1,0 +1,38 @@
+[14-Jan-2024 04:06:13 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 04:06:13 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 04:06:13 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 04:06:13 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 04:06:13 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[14-Jan-2024 04:06:14 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 04:06:14 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 12:56:15 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 12:56:15 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 12:56:15 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 12:56:15 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 12:56:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[14-Jan-2024 12:56:16 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 12:56:16 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 18:45:17 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 18:45:17 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 18:45:17 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 18:45:17 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 18:45:17 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[14-Jan-2024 18:45:18 Asia/Calcutta] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/devicetypecheck.php on line 6
+[14-Jan-2024 18:45:18 Asia/Kolkata] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/deviceinfo.php on line 14
+[14-Jan-2024 21:32:00 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66

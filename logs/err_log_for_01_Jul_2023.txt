@@ -1,0 +1,33 @@
+[01-Jul-2023 10:38:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[01-Jul-2023 11:12:20 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 57
+[01-Jul-2023 14:54:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[01-Jul-2023 15:02:26 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 475
+[01-Jul-2023 15:02:26 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 476
+[01-Jul-2023 15:02:26 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 476
+[01-Jul-2023 15:02:26 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /var/www/html/CampushalaNewProject/require/module/crud.php:483
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(483): htmlentities()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 483
+[01-Jul-2023 15:50:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php:65
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 65
+[01-Jul-2023 15:50:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php:65
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 65
+[01-Jul-2023 15:51:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62

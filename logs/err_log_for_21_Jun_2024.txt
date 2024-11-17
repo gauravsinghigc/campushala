@@ -1,0 +1,17 @@
+[21-Jun-2024 10:38:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66
+[21-Jun-2024 10:39:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u447740167_campushala_dem.universities_courses_offers' doesn't exist in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php:114
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(114): mysqli_query()
+#1 /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php(253): SELECT()
+#2 /home/u447740167/domains/navix.in/public_html/campushala-demo/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/require/module/crud.php on line 114
+[21-Jun-2024 11:18:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php:66
+Stack trace:
+#0 /home/u447740167/domains/navix.in/public_html/campushala-demo/admin/index.php(43): include()
+#1 {main}
+  thrown in /home/u447740167/domains/navix.in/public_html/campushala-demo/include/admin/header.php on line 66

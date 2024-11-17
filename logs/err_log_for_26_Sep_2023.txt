@@ -1,0 +1,122 @@
+[26-Sep-2023 10:12:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Sep-2023 10:14:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Sep-2023 12:01:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Sep-2023 12:02:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Sep-2023 12:12:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 1997
+[26-Sep-2023 12:12:55 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 12:12:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 12:12:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 1997
+[26-Sep-2023 12:12:55 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 12:12:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 12:25:54 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 1996
+[26-Sep-2023 12:25:54 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 12:25:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 12:25:54 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 1996
+[26-Sep-2023 12:25:54 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 12:25:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 13:41:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Sep-2023 13:41:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Sep-2023 14:15:47 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Sep-2023 14:15:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2277
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2263
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Warning:  Undefined variable $semKey in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2277
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP Stack trace:
+[26-Sep-2023 14:33:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0

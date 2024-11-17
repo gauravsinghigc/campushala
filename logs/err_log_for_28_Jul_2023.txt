@@ -1,0 +1,204 @@
+[28-Jul-2023 04:38:31 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 04:39:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Jul-2023 04:40:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(331): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 04:40:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(331): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 04:40:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(331): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 05:34:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(119): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 05:42:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations_fees`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(452): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 05:43:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations_fees`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(452): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 05:44:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations_fees`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(452): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[28-Jul-2023 08:47:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/students/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 08:47:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Jul-2023 09:14:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 09:15:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Jul-2023 09:18:44 Asia/Calcutta] PHP Warning:  Undefined array key "discount_type" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 53
+[28-Jul-2023 09:18:44 Asia/Calcutta] PHP Warning:  Undefined array key "discount_type" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 56
+[28-Jul-2023 09:18:44 Asia/Calcutta] PHP Warning:  Undefined array key "onetime_wise_discount" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 60
+[28-Jul-2023 09:18:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /var/www/html/CampushalaNewProject/controller/StudentsController.php:60
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/controller/StudentsController.php(60): implode()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 60
+[28-Jul-2023 09:25:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 198
+[28-Jul-2023 09:25:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:25:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 200
+[28-Jul-2023 09:25:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_specialization_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 201
+[28-Jul-2023 09:25:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:25:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 200
+[28-Jul-2023 09:25:54 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_specialization_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 201
+[28-Jul-2023 09:26:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:26:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_specialization_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 201
+[28-Jul-2023 09:27:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:27:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:27:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:27:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:29:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/admin/account/students/index.php on line 199
+[28-Jul-2023 09:30:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.university_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/students/index.php(181): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Jul-2023 09:30:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.university_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/students/index.php(181): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Jul-2023 09:30:46 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 188
+[28-Jul-2023 09:30:46 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 53
+[28-Jul-2023 09:30:46 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 55
+[28-Jul-2023 09:30:46 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 206
+[28-Jul-2023 09:30:46 Asia/Calcutta] PHP Warning:  Undefined array key "universitySessionId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 207
+[28-Jul-2023 09:30:46 Asia/Calcutta] PHP Warning:  Undefined array key "univCourseId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 219
+[28-Jul-2023 09:30:47 Asia/Calcutta] PHP Warning:  Undefined array key "UniversitySessionId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:30:47 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:30:47 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:30:47 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseSpecId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:30:47 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityCourseName" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 117
+[28-Jul-2023 09:30:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Jul-2023 09:31:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Jul-2023 09:31:21 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 188
+[28-Jul-2023 09:31:21 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 53
+[28-Jul-2023 09:31:21 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 55
+[28-Jul-2023 09:31:21 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 206
+[28-Jul-2023 09:31:21 Asia/Calcutta] PHP Warning:  Undefined array key "universitySessionId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 207
+[28-Jul-2023 09:31:21 Asia/Calcutta] PHP Warning:  Undefined array key "univCourseId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 219
+[28-Jul-2023 09:31:22 Asia/Calcutta] PHP Warning:  Undefined array key "UniversitySessionId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:31:22 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:31:22 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:31:22 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseSpecId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 235
+[28-Jul-2023 09:31:22 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityCourseName" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 117
+[28-Jul-2023 09:31:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(117): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Jul-2023 11:03:31 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 11:03:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Jul-2023 11:09:26 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Jul-2023 11:09:26 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Jul-2023 11:25:15 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Jul-2023 11:25:15 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Jul-2023 11:25:34 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Jul-2023 11:25:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Jul-2023 13:39:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/invoice/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 13:39:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Jul-2023 15:50:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 15:50:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Jul-2023 16:54:19 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Jul-2023 16:55:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15

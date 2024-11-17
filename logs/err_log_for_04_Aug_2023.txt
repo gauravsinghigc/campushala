@@ -1,0 +1,153 @@
+[04-Aug-2023 10:53:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[04-Aug-2023 10:53:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[04-Aug-2023 12:05:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/students/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[04-Aug-2023 12:06:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[04-Aug-2023 12:39:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(68): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:39:05 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(68): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:39:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(68): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:39:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(68): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:39:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(68): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:40:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(75): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:41:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(75): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 12:41:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'FeeType' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(75): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 13:28:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'stud_fee_mode_id' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(162): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[04-Aug-2023 13:29:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stud_fee_mode_id DESC LIMIT 1' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentsController.php(181): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[04-Aug-2023 13:59:03 Asia/Calcutta] PHP Warning:  Undefined variable $FeeModeName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 51
+[04-Aug-2023 13:59:03 Asia/Calcutta] PHP Stack trace:
+[04-Aug-2023 13:59:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[04-Aug-2023 13:59:03 Asia/Calcutta] PHP Warning:  Undefined variable $FeeModeName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 51
+[04-Aug-2023 13:59:03 Asia/Calcutta] PHP Stack trace:
+[04-Aug-2023 13:59:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[04-Aug-2023 13:59:04 Asia/Calcutta] PHP Warning:  Undefined variable $FeeModeName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 51
+[04-Aug-2023 13:59:04 Asia/Calcutta] PHP Stack trace:
+[04-Aug-2023 13:59:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[04-Aug-2023 13:59:04 Asia/Calcutta] PHP Warning:  Undefined variable $FeeModeName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 51
+[04-Aug-2023 13:59:04 Asia/Calcutta] PHP Stack trace:
+[04-Aug-2023 13:59:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[04-Aug-2023 13:59:05 Asia/Calcutta] PHP Warning:  Undefined variable $FeeModeName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 51
+[04-Aug-2023 13:59:05 Asia/Calcutta] PHP Stack trace:
+[04-Aug-2023 13:59:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[04-Aug-2023 13:59:05 Asia/Calcutta] PHP Warning:  Undefined variable $FeeModeName in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 51
+[04-Aug-2023 13:59:05 Asia/Calcutta] PHP Stack trace:
+[04-Aug-2023 13:59:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[04-Aug-2023 17:04:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(126): UPDATE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[04-Aug-2023 17:06:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(126): UPDATE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[04-Aug-2023 17:09:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET fee_mode_status='Done' WHERE stud_fee_mode_id='2'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(126): UPDATE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[04-Aug-2023 17:09:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET fee_mode_status='Done' WHERE stud_fee_mode_id='2'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(126): UPDATE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[04-Aug-2023 17:10:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET fee_mode_status='Done' WHERE stud_fee_mode_id='2'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(126): UPDATE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[04-Aug-2023 17:11:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET fee_mode_status='Done' WHERE stud_fee_mode_id='2'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(126): UPDATE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13

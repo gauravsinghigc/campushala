@@ -1,0 +1,110 @@
+[29-Jun-2023 10:42:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[29-Jun-2023 13:14:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[29-Jun-2023 14:27:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[29-Jun-2023 14:40:12 Asia/Calcutta] PHP Warning:  Undefined array key "jsonData" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 10
+[29-Jun-2023 14:46:30 Asia/Calcutta] PHP Warning:  Undefined array key "SaveUniversityInfo" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 13
+[29-Jun-2023 14:51:15 Asia/Calcutta] PHP Warning:  Undefined array key "SaveUniversityInfo" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 13
+[29-Jun-2023 14:51:30 Asia/Calcutta] PHP Warning:  Undefined array key "SaveUniversityInfo" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 13
+[29-Jun-2023 15:22:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/university/index.php(180): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:22:43 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/university/index.php(180): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:22:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/university/index.php(180): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:23:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/university/index.php(180): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:24:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:24:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:24:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:25:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:25:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:26:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:27:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_registered_address' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(12): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[29-Jun-2023 15:54:03 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26
+[29-Jun-2023 16:42:12 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26
+[29-Jun-2023 16:42:12 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26
+[29-Jun-2023 16:42:17 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26
+[29-Jun-2023 16:42:17 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26
+[29-Jun-2023 16:45:39 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26
+[29-Jun-2023 16:45:39 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 26

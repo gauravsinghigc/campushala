@@ -1,0 +1,340 @@
+[21-Sep-2023 09:20:23 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[21-Sep-2023 09:20:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Sep-2023 10:05:10 Asia/Calcutta] PHP Warning:  Undefined variable $DBdiscountAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 853
+[21-Sep-2023 10:05:10 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 10:05:10 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 670
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscountAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 670
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 670
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 10:11:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 10:11:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 672
+[21-Sep-2023 10:11:26 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 10:11:26 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 10:11:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 672
+[21-Sep-2023 10:11:26 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 10:11:26 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 11:31:57 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/add.php(59): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[21-Sep-2023 11:32:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Sep-2023 12:13:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/add.php(59): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[21-Sep-2023 12:13:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Sep-2023 12:22:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 582
+[21-Sep-2023 12:22:04 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 12:22:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 12:22:04 Asia/Calcutta] PHP Warning:  Undefined variable $TotalDiscountAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 582
+[21-Sep-2023 12:22:04 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 12:22:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 12:23:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[21-Sep-2023 12:23:11 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 12:23:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 12:23:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_amount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 583
+[21-Sep-2023 12:23:46 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 12:23:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 13:24:08 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:26:20 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:29:17 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:31:28 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:32:09 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:32:17 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:37:23 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:37:38 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1155
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1155
+[21-Sep-2023 13:49:36 Asia/Calcutta] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1160
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1160
+[21-Sep-2023 14:05:02 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:909
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 909
+[21-Sep-2023 14:07:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:909
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 909
+[21-Sep-2023 14:08:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:909
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 909
+[21-Sep-2023 14:10:37 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:912
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 912
+[21-Sep-2023 14:12:26 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:912
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 912
+[21-Sep-2023 14:18:18 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string / int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:1163
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1163
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in /var/www/html/CampushalaNewProject/admin/logout.php on line 6
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 15:21:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[21-Sep-2023 15:24:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[21-Sep-2023 15:24:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Sep-2023 16:46:46 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 460
+[21-Sep-2023 16:46:46 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 16:46:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 16:46:46 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[21-Sep-2023 16:46:46 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 16:46:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 16:46:49 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 460
+[21-Sep-2023 16:46:49 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 16:46:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 16:46:49 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 461
+[21-Sep-2023 16:46:49 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 16:46:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 16:57:32 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 469
+[21-Sep-2023 16:57:32 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 16:57:32 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 16:57:32 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 470
+[21-Sep-2023 16:57:32 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 16:57:32 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:00:15 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 470
+[21-Sep-2023 17:00:15 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:00:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:00:15 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 471
+[21-Sep-2023 17:00:15 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:00:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalValue in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:06:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:07:33 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "SemTotalPaidAmount" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:494
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:12:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalDiscount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 488
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalFees in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 493
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Warning:  Undefined variable $SemTotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 494
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:13:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[21-Sep-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 500
+[21-Sep-2023 17:35:22 Asia/Calcutta] PHP Stack trace:
+[21-Sep-2023 17:35:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0

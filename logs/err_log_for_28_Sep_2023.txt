@@ -1,0 +1,1249 @@
+[28-Sep-2023 02:12:57 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Sep-2023 02:13:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Sep-2023 03:20:31 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:194
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 194
+[28-Sep-2023 03:20:49 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:194
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 194
+[28-Sep-2023 04:18:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/students/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Sep-2023 04:18:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Sep-2023 04:41:40 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Sep-2023 04:41:40 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 04:41:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/invoice/index.php:0
+[28-Sep-2023 04:41:40 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[28-Sep-2023 04:41:40 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 04:41:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/invoice/index.php:0
+[28-Sep-2023 04:41:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 2 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(57): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 04:44:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND bdes_city = 'City' LIMIT 2 OFFSET 2' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(57): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 04:46:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND bdes_city = 'City' LIMIT 2 OFFSET 2' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(58): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 04:46:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND bdes_city = 'noida' LIMIT 2 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(58): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 04:46:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND bdes_city = 'City' LIMIT 2 OFFSET 4' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(58): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 04:47:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND bdes_city = 'noida' LIMIT 2 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(58): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 04:49:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND bdes_state = 'Laborum anim sunt q' LIMIT 2 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(58): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 05:00:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_date' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(58): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 05:27:40 Asia/Calcutta] PHP Warning:  Undefined array key "filters" in /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php on line 102
+[28-Sep-2023 05:27:40 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 05:27:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php:0
+[28-Sep-2023 07:00:05 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/bdes/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Sep-2023 07:00:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 400
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 401
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 405
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_first_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_last_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_phone_no in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 407
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_email_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 408
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_city in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 409
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 410
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 411
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 400
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 401
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 405
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_first_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_last_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_phone_no in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 407
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_email_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 408
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_city in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 409
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 410
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 411
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 400
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 401
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 405
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_first_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_last_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_phone_no in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 407
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_email_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 408
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_city in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 409
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 410
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 411
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 400
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 401
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 405
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_first_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_last_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_phone_no in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 407
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_email_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 408
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_city in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 409
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 410
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 411
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 400
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 401
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 405
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_first_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_last_name in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 406
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_phone_no in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 407
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_email_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 408
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_city in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 409
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 410
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 411
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:11:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_state in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:16:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 414
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:17:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bdes_id in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 413
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:18:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:19 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:26:19 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:26:19 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 88
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 88
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:26:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 88
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:46 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 327
+[28-Sep-2023 07:35:46 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:35:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:35:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 424
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 424
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 424
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 07:42:01 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 88
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:31:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 88
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 88
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 96
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 256
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 354
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 434
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 734
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 750
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 768
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 788
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 811
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 833
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 893
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 915
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:33:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/students/edit.php:0
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 08:34:31 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:31 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:31 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:31 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:48 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:34:48 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:34:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:34:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:35:47 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:35:47 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:35:47 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:36:07 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:36:07 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:36:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:36:09 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:36:09 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:36:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:37:14 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:37:14 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:37:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:38:10 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:38:10 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:38:10 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:39:11 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:39:11 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:39:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:39:11 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:39:11 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:39:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:39:14 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:39:14 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:39:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:40:39 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:40:39 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:40:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:40:41 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:40:41 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:40:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:42:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:42:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:42:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:42:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:42:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:42:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:42:33 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:42:33 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:42:33 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:42:37 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:42:37 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:42:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:43:37 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:43:37 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:43:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:43:38 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:43:38 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:43:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 08:43:41 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 08:43:41 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 08:43:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:00:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Sep-2023 10:01:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "university_emails_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "university_gst" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_address" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_sector" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_landmark" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_city" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_state" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_country" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[28-Sep-2023 10:38:07 Asia/Calcutta] PHP Warning:  Undefined array key "sessionId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 110
+[28-Sep-2023 10:38:07 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[28-Sep-2023 10:38:07 Asia/Calcutta] PHP Warning:  Undefined array key "courseId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 133
+[28-Sep-2023 10:38:07 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:38:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[28-Sep-2023 10:55:27 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:55:27 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:55:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:55:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:55:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:55:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:55:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:55:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:55:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:55:31 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:55:31 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:55:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:55:33 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:55:33 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:55:33 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:55:35 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:55:35 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:55:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:55:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[28-Sep-2023 10:56:07 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:07 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:07 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:07 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:14 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:14 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:16 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:16 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:16 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:16 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:20 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:20 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:20 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:22 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:27 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:27 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:31 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:31 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:34 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:48 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:50 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:50 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:50 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:50 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:50 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:52 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:54 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:54 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:56:56 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:56:56 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:56:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[28-Sep-2023 10:57:15 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:15 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:15 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:23 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:23 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:23 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:23 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:23 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:23 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:24 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:24 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:24 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:26 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:26 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:26 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:27 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:27 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:38 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:38 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:40 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:40 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:40 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:40 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:42 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:42 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:44 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:44 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:46 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:46 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:57:51 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:57:51 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:57:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:08 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:08 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:10 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:10 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:10 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:10 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:10 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:10 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:12 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:14 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:14 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:16 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:16 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:24 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:24 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:24 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:36 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:36 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:38 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:38 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:38 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:38 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:40 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:40 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:41 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:41 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:43 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:43 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:43 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:58:51 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:58:51 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:58:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:11 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:11 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:14 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:14 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:14 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:14 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:14 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:16 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:16 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:16 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:17 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:17 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:22 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 10:59:30 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 10:59:30 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 10:59:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:25 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:25 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:27 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:27 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:27 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:27 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:28 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:28 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:30 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:30 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:34 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:34 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 11:00:45 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 11:00:45 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 11:00:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:12 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:12 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:18 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:18 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:19 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:19 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:23 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:23 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:23 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:25 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:25 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:29 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:29 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[28-Sep-2023 12:33:49 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:54 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:54 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:54 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:54 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:33:56 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:33:56 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:33:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:00 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:00 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:07 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:07 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:11 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:11 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:37 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:34:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[28-Sep-2023 12:35:41 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:35:41 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:35:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:35:43 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:35:43 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:35:43 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:35:49 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:35:49 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:35:49 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:36:21 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:36:21 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:36:21 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:36:22 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:36:22 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:36:22 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:36:25 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:36:25 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:36:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:38:28 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:38:28 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:38:28 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:38:36 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:38:36 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:38:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:39:48 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:39:48 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:39:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:39:52 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:39:52 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:39:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:39:58 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:39:58 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:39:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:41:27 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:41:27 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:41:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 12:42:21 Asia/Calcutta] PHP Warning:  Undefined array key "loadTableData" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 328
+[28-Sep-2023 12:42:21 Asia/Calcutta] PHP Stack trace:
+[28-Sep-2023 12:42:21 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php:0
+[28-Sep-2023 13:11:22 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Sep-2023 13:11:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[28-Sep-2023 13:24:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[28-Sep-2023 16:03:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/students/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[28-Sep-2023 16:04:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15

@@ -1,0 +1,181 @@
+[05-Aug-2023 10:27:41 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[05-Aug-2023 10:28:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type int in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 213
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 11:55:06 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 14:53:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/add.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[05-Aug-2023 14:53:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key "student_id" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 203
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key "university_id" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 203
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key "session_id" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 203
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key "course_id" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 203
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key "specilization_id" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 203
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key "specilization_fee_id" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 203
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Warning:  Undefined array key 1 in /var/www/html/CampushalaNewProject/require/module/crud.php on line 259
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:02:17 Asia/Calcutta] PHP   2. FETCH($SQL = 'SELECT SUM(paid_amount) FROM stud_fee_collects WHERE student_id=\'\' AND  university_id=\'\' AND session_id=\'\'  AND course_id=\'\'  AND specilization_id=\'\'  AND specilization_fee_id=\'\'  AND fee_mode_name=\'1\'', $data = TRUE, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:203
+[05-Aug-2023 16:03:53 Asia/Calcutta] PHP Warning:  Undefined array key 1 in /var/www/html/CampushalaNewProject/require/module/crud.php on line 259
+[05-Aug-2023 16:03:53 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:03:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:03:53 Asia/Calcutta] PHP   2. FETCH($SQL = 'SELECT SUM(paid_amount) FROM stud_fee_collects WHERE student_id=\'2\' AND  university_id=\'1\' AND session_id=\'1\'  AND course_id=\'1\'  AND specilization_id=\'2\'  AND specilization_fee_id=\'4\'  AND fee_mode_name=\'1\'', $data = TRUE, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:203
+[05-Aug-2023 16:04:31 Asia/Calcutta] PHP Warning:  Undefined array key 1 in /var/www/html/CampushalaNewProject/require/module/crud.php on line 259
+[05-Aug-2023 16:04:31 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:04:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:04:31 Asia/Calcutta] PHP   2. FETCH($SQL = 'SELECT SUM(paid_amount) FROM stud_fee_collects WHERE student_id=\'2\' AND  university_id=\'1\' AND session_id=\'1\'  AND course_id=\'1\'  AND specilization_id=\'2\'  AND specilization_fee_id=\'4\'  AND fee_mode_name=\'1\'', $data = TRUE, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:203
+[05-Aug-2023 16:04:58 Asia/Calcutta] PHP Warning:  Undefined array key 1 in /var/www/html/CampushalaNewProject/require/module/crud.php on line 259
+[05-Aug-2023 16:04:58 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:04:58 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:04:58 Asia/Calcutta] PHP   2. FETCH($SQL = 'SELECT SUM(paid_amount) FROM stud_fee_collects WHERE student_id=\'2\' AND  university_id=\'1\' AND session_id=\'1\'  AND course_id=\'1\'  AND specilization_id=\'2\'  AND specilization_fee_id=\'4\'  AND fee_mode_name=\'1\'', $data = TRUE, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:203
+[05-Aug-2023 16:05:07 Asia/Calcutta] PHP Warning:  Undefined array key "" in /var/www/html/CampushalaNewProject/require/module/crud.php on line 259
+[05-Aug-2023 16:05:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:05:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:05:07 Asia/Calcutta] PHP   2. FETCH($SQL = 'SELECT SUM(paid_amount) FROM stud_fee_collects WHERE student_id=\'2\' AND  university_id=\'1\' AND session_id=\'1\'  AND course_id=\'1\'  AND specilization_id=\'2\'  AND specilization_fee_id=\'4\'  AND fee_mode_name=\'1\'', $data = FALSE, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:203
+[05-Aug-2023 16:05:12 Asia/Calcutta] PHP Warning:  Undefined array key "" in /var/www/html/CampushalaNewProject/require/module/crud.php on line 259
+[05-Aug-2023 16:05:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:05:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 16:05:12 Asia/Calcutta] PHP   2. FETCH($SQL = 'SELECT SUM(paid_amount) FROM stud_fee_collects WHERE student_id=\'2\' AND  university_id=\'1\' AND session_id=\'1\'  AND course_id=\'1\'  AND specilization_id=\'2\'  AND specilization_fee_id=\'4\'  AND fee_mode_name=\'1\'', $data = FALSE, $die = *uninitialized*) /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:203
+[05-Aug-2023 16:08:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM stud_fee_collects WHERE student_id='2' AND  university_id='1' AND sessio...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(203): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[05-Aug-2023 16:08:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM stud_fee_collects WHERE student_id='2' AND  university_id='1' AND sessio...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(203): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[05-Aug-2023 16:09:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM stud_fee_collects WHERE student_id='2' AND  university_id='1' AND sessio...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(203): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[05-Aug-2023 16:49:48 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[05-Aug-2023 16:49:48 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 16:49:48 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[05-Aug-2023 16:49:48 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[05-Aug-2023 16:49:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Aug-2023 17:19:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[05-Aug-2023 17:19:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[05-Aug-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 206
+[05-Aug-2023 17:23:08 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:23:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Warning:  Undefined variable $TotalPaidFee in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 223
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP Stack trace:
+[05-Aug-2023 17:35:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0

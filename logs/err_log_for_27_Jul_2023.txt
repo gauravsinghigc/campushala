@@ -1,0 +1,109 @@
+[27-Jul-2023 08:32:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[27-Jul-2023 08:32:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[27-Jul-2023 08:50:28 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:50:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:50:43 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:51:06 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:53:47 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:55:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:55:56 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:55:58 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:58:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 08:59:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 09:00:18 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 09:01:12 Asia/Calcutta] PHP Warning:  Undefined array key "CourseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 679
+[27-Jul-2023 10:18:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[27-Jul-2023 10:18:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[27-Jul-2023 10:19:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`universities_courses_specializations`.`univ_course_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(119): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[27-Jul-2023 10:31:14 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 153
+[27-Jul-2023 14:02:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[27-Jul-2023 14:02:33 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[27-Jul-2023 14:16:38 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 153
+[27-Jul-2023 14:17:24 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 153
+[27-Jul-2023 14:18:32 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 153
+[27-Jul-2023 14:23:23 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 153
+[27-Jul-2023 14:24:15 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 153
+[27-Jul-2023 15:36:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'univ_course_specialization_name' in 'field list' in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(218): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[27-Jul-2023 15:41:20 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 209
+[27-Jul-2023 15:41:20 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 240
+[27-Jul-2023 16:32:29 Asia/Calcutta] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 214
+[27-Jul-2023 16:32:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php:218
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 218
+[27-Jul-2023 16:32:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[27-Jul-2023 16:32:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[27-Jul-2023 16:34:06 Asia/Calcutta] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 214
+[27-Jul-2023 16:34:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(221): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[27-Jul-2023 16:39:21 Asia/Calcutta] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 204
+[27-Jul-2023 16:39:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(210): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[27-Jul-2023 16:40:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(210): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539
+[27-Jul-2023 16:53:43 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 300
+[27-Jul-2023 16:58:02 Asia/Calcutta] PHP Warning:  Undefined variable $Save in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 303
+[27-Jul-2023 17:27:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'univ_course_spec_total_fee_value' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:539
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(539): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(331): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 539

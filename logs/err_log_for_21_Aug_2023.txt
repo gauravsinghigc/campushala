@@ -1,0 +1,63 @@
+[21-Aug-2023 10:24:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[21-Aug-2023 10:24:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Aug-2023 10:28:54 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[21-Aug-2023 10:28:54 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 10:28:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[21-Aug-2023 10:28:54 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:20 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:27 Asia/Calcutta] PHP Warning:  Undefined variable $outPut in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 477
+[21-Aug-2023 18:01:27 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:01:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP Stack trace:
+[21-Aug-2023 18:02:25 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0

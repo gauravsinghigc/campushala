@@ -1,0 +1,513 @@
+[12-Jun-2023 09:49:45 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[12-Jun-2023 09:58:59 Asia/Calcutta] PHP Warning:  Undefined variable $after_discoun_on_course_total_fee in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 09:58:59 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 82
+[12-Jun-2023 09:59:24 Asia/Calcutta] PHP Warning:  Undefined variable $after_discoun_on_course_total_fee in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 09:59:24 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 82
+[12-Jun-2023 10:00:11 Asia/Calcutta] PHP Warning:  Undefined variable $after_discoun_on_course_total_fee in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:00:11 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 82
+[12-Jun-2023 10:01:14 Asia/Calcutta] PHP Warning:  Undefined variable $after_discoun_on_course_total_fee in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:01:14 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 82
+[12-Jun-2023 10:06:01 Asia/Calcutta] PHP Warning:  Undefined variable $after_discoun_on_course_total_fee in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 67
+[12-Jun-2023 10:06:01 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 83
+[12-Jun-2023 10:06:25 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 10:06:26 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseSpecId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 77
+[12-Jun-2023 10:06:40 Asia/Calcutta] PHP Warning:  Undefined variable $after_discoun_on_course_total_fee in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 67
+[12-Jun-2023 10:06:40 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 83
+[12-Jun-2023 10:14:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /var/www/html/CampushalaNewProject/controller/StudentsController.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:15:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /var/www/html/CampushalaNewProject/controller/StudentsController.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:15:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /var/www/html/CampushalaNewProject/controller/StudentsController.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:16:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /var/www/html/CampushalaNewProject/controller/StudentsController.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:16:46 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /var/www/html/CampushalaNewProject/controller/StudentsController.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:16:59 Asia/Calcutta] PHP Warning:  Undefined variable $NewDiscountPercentageAmount in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 67
+[12-Jun-2023 10:20:46 Asia/Calcutta] PHP Warning:  Undefined variable $NewDiscountPercentageAmount in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 67
+[12-Jun-2023 10:25:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int - string in /var/www/html/CampushalaNewProject/controller/StudentsController.php:66
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 66
+[12-Jun-2023 10:31:17 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 94
+[12-Jun-2023 10:46:35 Asia/Calcutta] PHP Warning:  Undefined array key "after_discoun_on_course_total_fee" in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 95
+[12-Jun-2023 11:34:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'student_id' in where clause is ambiguous in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/students/view.php(91): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[12-Jun-2023 11:34:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'student_id' in where clause is ambiguous in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/students/view.php(91): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[12-Jun-2023 11:58:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 197
+[12-Jun-2023 11:58:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'bde_id' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/students/view.php(197): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[12-Jun-2023 11:58:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 192
+[12-Jun-2023 11:58:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 198
+[12-Jun-2023 11:58:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'bde_id' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/admin/account/students/view.php(198): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[12-Jun-2023 11:58:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 192
+[12-Jun-2023 11:59:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 192
+[12-Jun-2023 12:01:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 192
+[12-Jun-2023 12:12:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_team_member in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 192
+[12-Jun-2023 12:21:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 202
+[12-Jun-2023 12:22:24 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$bde_id in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 202
+[12-Jun-2023 13:36:08 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 13:54:10 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 13:55:42 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 13:55:45 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 13:55:50 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 13:56:23 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 13:58:13 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 14:00:04 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseSpecId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 77
+[12-Jun-2023 14:32:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 303
+[12-Jun-2023 14:32:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 316
+[12-Jun-2023 14:52:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 303
+[12-Jun-2023 14:52:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 316
+[12-Jun-2023 14:53:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 303
+[12-Jun-2023 14:53:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 316
+[12-Jun-2023 15:01:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 303
+[12-Jun-2023 15:01:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 316
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 91
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 236
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined variable $StudentId in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 332
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 202
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 63
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 65
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined array key "BdeId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 119
+[12-Jun-2023 15:09:50 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 217
+[12-Jun-2023 15:09:51 Asia/Calcutta] PHP Warning:  Undefined array key "univCourseId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 229
+[12-Jun-2023 15:09:51 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityCourseSpecId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 77
+[12-Jun-2023 15:09:51 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityCourseName" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 129
+[12-Jun-2023 15:10:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:10:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:23:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:23:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:29:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:29:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:29:41 Asia/Calcutta] PHP Warning:  Undefined array key "studUniversityId" in /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php on line 27
+[12-Jun-2023 15:30:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:30:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:31:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:31:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:46:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:46:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 15:52:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 15:52:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:06:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:06:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:12:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:12:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:13:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:13:23 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:13:47 Asia/Calcutta] PHP Warning:  Undefined variable $student_id in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 149
+[12-Jun-2023 16:13:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_primary_details`.`student_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(392): UPDATE()
+#2 /var/www/html/CampushalaNewProject/controller/StudentsController.php(158): UPDATE_DATA()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[12-Jun-2023 16:14:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:14:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:14:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:14:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:16:22 Asia/Calcutta] PHP Warning:  Undefined variable $FetchId in /var/www/html/CampushalaNewProject/controller/StudentsController.php on line 163
+[12-Jun-2023 16:16:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`student_id` at row 3 in /var/www/html/CampushalaNewProject/require/module/crud.php:13
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(13): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(392): UPDATE()
+#2 /var/www/html/CampushalaNewProject/controller/StudentsController.php(173): UPDATE_DATA()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 13
+[12-Jun-2023 16:16:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:16:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:16:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:16:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:17:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:17:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:22:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:22:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:31:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:31:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:31:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:31:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:31:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:31:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:32:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:32:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:32:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:32:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:33:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:33:40 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:36:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:36:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:37:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:37:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:37:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:37:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:39:17 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 16:39:17 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 16:39:17 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 16:39:17 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 16:39:17 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 16:39:17 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 16:39:18 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 16:39:18 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 16:39:18 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 16:39:18 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 16:39:18 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 16:39:18 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 16:39:28 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 303
+[12-Jun-2023 16:39:28 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/view.php on line 316
+[12-Jun-2023 16:39:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_mode in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 303
+[12-Jun-2023 16:39:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_type in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 316
+[12-Jun-2023 16:56:31 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 16:56:31 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 39
+[12-Jun-2023 16:57:43 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 16:59:43 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:00:13 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 39
+[12-Jun-2023 17:02:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:03:14 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 40
+[12-Jun-2023 17:04:11 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:12:44 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:12:46 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:12:46 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 39
+[12-Jun-2023 17:13:21 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:14:01 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 25
+[12-Jun-2023 17:14:06 Asia/Calcutta] PHP Warning:  Undefined array key "new_univ_course_session_year" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 55
+[12-Jun-2023 17:14:06 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 55
+[12-Jun-2023 17:18:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:18:07 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:18:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:18:07 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:18:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:18:07 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:18:08 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:18:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:18:08 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:18:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:18:08 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:18:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:18:23 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:18:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:18:23 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:18:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:18:23 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:18:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:18:24 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:18:24 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:18:24 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:18:24 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:18:24 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:18:24 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:19:43 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:19:43 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:19:43 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:19:43 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:19:43 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:19:43 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:19:44 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:19:44 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:19:45 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:19:45 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:19:45 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:19:45 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:20:23 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:20:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:20:23 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:20:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:20:23 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:20:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:20:24 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:20:24 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:20:24 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:20:24 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:20:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:20:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:20:37 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:20:37 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:20:37 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:20:37 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:20:37 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:20:37 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:20:38 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:20:38 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:20:38 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:20:38 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:20:38 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:20:38 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:21:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:21:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:00 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:00 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:00 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:00 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:00 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:00 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:01 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:01 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:01 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:01 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:01 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:01 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:26 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:26 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:26 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:26 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:26 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:26 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:22:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:22:53 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:53 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:53 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:53 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:22:53 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:22:53 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:02 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:02 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:02 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:02 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:02 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:02 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:03 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:03 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:03 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:03 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:03 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:03 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:07 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:07 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:07 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:07 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:40 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:40 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:41 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:41 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:58 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:58 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:58 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:58 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:58 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:23:58 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:23:59 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:59 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:59 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:59 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:23:59 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:23:59 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:37 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:37 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:37 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:37 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:37 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:37 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:38 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:38 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:38 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:38 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:38 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:38 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:24:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:26:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:26:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:26:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:26:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:26:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:26:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:26:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:27:12 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:27:12 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:27:12 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:27:12 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:27:12 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:27:12 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:27:13 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:27:13 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:27:13 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:27:13 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:27:13 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:27:13 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:34:26 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:34:26 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:34:26 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:34:26 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:34:26 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:34:26 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:35:04 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:35:04 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:35:04 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:35:04 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:35:05 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:35:05 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:35:05 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:35:05 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:35:15 Asia/Calcutta] PHP Warning:  Undefined array key "new_univ_course_session_year" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 55
+[12-Jun-2023 17:35:15 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 55
+[12-Jun-2023 17:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:35:21 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:35:22 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:41:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:41:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:41:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:41:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:41:50 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:41:50 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:41:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:41:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:41:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:41:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:41:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:41:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:41:53 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:41:55 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:42:14 Asia/Calcutta] PHP Warning:  Undefined array key "new_univ_course_specialization" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 156
+[12-Jun-2023 17:42:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 156
+[12-Jun-2023 17:42:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /var/www/html/CampushalaNewProject/controller/UniversityController.php:156
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/controller/UniversityController.php(156): implode()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 156
+[12-Jun-2023 17:42:49 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:42:49 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:49 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:42:49 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:49 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:42:49 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 58
+[12-Jun-2023 17:42:51 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:42:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:42:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:42:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:42:52 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 79
+[12-Jun-2023 17:42:52 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:42:55 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 59
+[12-Jun-2023 17:42:56 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 80
+[12-Jun-2023 17:42:59 Asia/Calcutta] PHP Warning:  Undefined array key "new_univ_course_specialization" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 156
+[12-Jun-2023 17:42:59 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 156
+[12-Jun-2023 17:42:59 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /var/www/html/CampushalaNewProject/controller/UniversityController.php:156
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/controller/UniversityController.php(156): implode()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 156
+[12-Jun-2023 17:47:31 Asia/Calcutta] PHP Warning:  Undefined array key "new_univ_course_specialization" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 157
+[12-Jun-2023 17:47:31 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 157
+[12-Jun-2023 17:47:31 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /var/www/html/CampushalaNewProject/controller/UniversityController.php:157
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/controller/UniversityController.php(157): implode()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 157

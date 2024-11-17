@@ -1,0 +1,76 @@
+[02-Jul-2023 12:46:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[02-Jul-2023 20:11:45 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[02-Jul-2023 20:12:05 Asia/Calcutta] PHP Warning:  Undefined variable $universityId in /var/www/html/CampushalaNewProject/admin/account/university/add.php on line 252
+[02-Jul-2023 20:12:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:12:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:12:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:12:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:12:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:13:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:15:15 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'july-2023' for column `newCampushala`.`universities_courses`.`univ_session_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(68): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:23:52 Asia/Calcutta] PHP Warning:  Undefined array key "univ_session_name" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 60
+[02-Jul-2023 20:23:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'created_by' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(62): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:24:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'created_by' doesn't have a default value in /var/www/html/CampushalaNewProject/require/module/crud.php:506
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(506): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(62): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 506
+[02-Jul-2023 20:33:42 Asia/Calcutta] PHP Warning:  Undefined variable $universityId in /var/www/html/CampushalaNewProject/admin/account/university/add.php on line 252
+[02-Jul-2023 20:43:54 Asia/Calcutta] PHP Warning:  Undefined variable $universityId in /var/www/html/CampushalaNewProject/admin/account/university/add.php on line 252
+[02-Jul-2023 21:08:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php:95
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 95
+[02-Jul-2023 21:08:43 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php:95
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 95

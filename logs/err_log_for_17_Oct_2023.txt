@@ -1,0 +1,1003 @@
+[17-Oct-2023 12:30:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[17-Oct-2023 12:31:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[17-Oct-2023 12:31:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT sfc.total_amount FROM universities_primary_details AS upd
+          ...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(190): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 12:55:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 10 OFFSET 0' at line 20 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(210): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 246
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_full_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 246
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$university_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 248
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 249
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 250
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_specialization_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 251
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$fee_mode in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 252
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 258
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 258
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 260
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 246
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_full_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 246
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$university_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 248
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 249
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 250
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_specialization_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 251
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$fee_mode in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 252
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 258
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 258
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 260
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 246
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_full_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 246
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$university_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 248
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_session_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 249
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 250
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_specialization_name in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 251
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$fee_mode in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 252
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 258
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 258
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 260
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 12:55:59 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:05:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:06:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:06:52 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[17-Oct-2023 13:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[17-Oct-2023 13:51:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[17-Oct-2023 13:56:39 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT sfc.total_amount FROM universities_primary_details AS upd
+          ...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(190): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:56:56 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:58:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 13:59:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:02:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:05:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:07:49 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 219
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:08:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:22 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:35:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 224
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 225
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 227
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 14:36:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:17:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[17-Oct-2023 15:18:00 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 235
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 237
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:18:15 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:21:44 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 234
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$totalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 236
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 259
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:22:25 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 261
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 261
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 261
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 261
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:23:13 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 266
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 266
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 266
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Warning:  Undefined variable $TotalPaidAmount in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 266
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:24:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 15:36:38 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY sfc.student_id, sfc.university_id, sfc.session_id, sfc.course_id, sf...' at line 10 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(201): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 15:36:48 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY sfc.student_id, sfc.university_id, sfc.session_id, sfc.course_id, sf...' at line 10 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(201): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 15:36:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY sfc.student_id, sfc.university_id, sfc.session_id, sfc.course_id, sf...' at line 10 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(201): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 15:58:46 Asia/Kolkata] PHP Warning:  Undefined array key "UniversalSearch" in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 170
+[17-Oct-2023 15:58:46 Asia/Kolkata] PHP Stack trace:
+[17-Oct-2023 15:58:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[17-Oct-2023 16:06:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 16:18:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 16:20:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 16:20:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[17-Oct-2023 16:21:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114

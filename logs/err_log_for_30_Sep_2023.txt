@@ -1,0 +1,689 @@
+[30-Sep-2023 09:54:05 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[30-Sep-2023 09:54:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[30-Sep-2023 10:23:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:24:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:26:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:29:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /var/www/html/CampushalaNewProject/require/module/form.php:126
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/students/edit.php(382): InputOptions()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/form.php on line 126
+[30-Sep-2023 10:30:52 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/CampushalaNewProject/admin/account/students/edit.php:383
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 383
+[30-Sep-2023 10:31:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/CampushalaNewProject/admin/account/students/edit.php:383
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/admin/account/students/edit.php on line 383
+[30-Sep-2023 10:32:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:33:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:34:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:36:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 10:36:31 Asia/Calcutta] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 380
+[30-Sep-2023 10:36:31 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:36:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 10:36:31 Asia/Calcutta] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 380
+[30-Sep-2023 10:36:31 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:36:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "university_emails_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "university_gst" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_address" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_sector" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_landmark" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_city" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_state" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_country" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:03 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "university_emails_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "university_gst" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_address" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_sector" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_landmark" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_city" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_state" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_country" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:52:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "university_emails_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "university_gst" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_address" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_sector" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_landmark" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_city" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_state" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_country" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:56:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[30-Sep-2023 10:57:34 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[30-Sep-2023 10:57:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:57:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[30-Sep-2023 10:57:34 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[30-Sep-2023 10:57:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:58:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:00 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_course_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 10:59:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 10:59:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 11:23:31 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[30-Sep-2023 11:23:31 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 11:23:31 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[30-Sep-2023 11:23:31 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[30-Sep-2023 11:23:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[30-Sep-2023 11:31:14 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "FetchStudentData" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:364
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 364
+[30-Sep-2023 11:32:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "FetchStudentData" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:368
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 368
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 11:46:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 11:46:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND upd.university_id LIKE '%1%' AND usy.univ_session_id LIKE '%1%' AND uc.un...' at line 45 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(378): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:06:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown table 'newCampushala.spd' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(379): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:08:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM universities_primary_details AS upd LEFT JOIN universities_courses AS uc...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(335): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:08:40 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM universities_primary_details AS upd LEFT JOIN universities_courses AS uc...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(335): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:08:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM universities_primary_details AS upd LEFT JOIN universities_courses AS uc...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(335): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 368
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 371
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 378
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 381
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 384
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 387
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 390
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$total_students in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 401
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:10:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:14:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[30-Sep-2023 12:36:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uc.univ_course_description' in 'field list' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(383): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:37:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ucs.univ_specialization_name' in 'field list' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(382): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:37:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ucs.univ_specialization_name' in 'field list' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(381): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 362
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 365
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 372
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 375
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 378
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 381
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 384
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$total_students in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 395
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:40:34 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:54:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$total_students in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 406
+[30-Sep-2023 12:54:30 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:54:30 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 12:55:39 Asia/Calcutta] PHP Warning:  Undefined variable $TotalStudent in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 407
+[30-Sep-2023 12:55:39 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 12:55:39 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 13:00:13 Asia/Calcutta] PHP Warning:  Undefined variable $fetchStudentData in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 356
+[30-Sep-2023 13:00:13 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 13:00:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 13:05:42 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[30-Sep-2023 13:05:42 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 13:05:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[30-Sep-2023 13:05:42 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[30-Sep-2023 13:05:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[30-Sep-2023 13:17:07 Asia/Calcutta] PHP Warning:  Undefined variable $TotalStudent in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 361
+[30-Sep-2023 13:17:07 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 13:17:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 13:21:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 13:25:59 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:18:49 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[30-Sep-2023 14:18:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 14:21:51 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 14:22:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 14:59:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uc.univ_course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 14:59:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY upd.university_id LIMIT 5 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 14:59:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY upd.university_id LIMIT 5 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:00:42 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:04:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(292): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:05:42 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uc.univ_course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(294): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:08:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uc.univ_course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(295): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:18:46 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:18:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:19:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:20:56 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[30-Sep-2023 15:31:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT upd.*, COUNT(DISTINCT uc.univ_course_id) AS total_courses, COUNT(DISTI...' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(328): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:32:11 Asia/Calcutta] PHP Warning:  Undefined variable $StudentQuery in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 313
+[30-Sep-2023 15:32:11 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 15:32:11 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[30-Sep-2023 15:39:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'srd.stud_reg_status' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:39:19 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'srd.stud_reg_status' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:40:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'spd.student_status' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:42:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'srd.stud_reg_status' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:42:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'srd.stud_reg_status' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 15:43:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'srd.stud_reg_status' in 'where clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(288): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[30-Sep-2023 17:04:52 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /var/www/html/CampushalaNewProject/admin/logout.php on line 5
+[30-Sep-2023 17:04:52 Asia/Calcutta] PHP Stack trace:
+[30-Sep-2023 17:04:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/logout.php:0
+[30-Sep-2023 17:04:52 Asia/Calcutta] PHP   2. session_start() /var/www/html/CampushalaNewProject/admin/logout.php:5
+[30-Sep-2023 17:04:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15

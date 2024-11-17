@@ -1,0 +1,242 @@
+[21-Oct-2023 11:14:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[21-Oct-2023 11:14:33 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Oct-2023 12:47:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[21-Oct-2023 12:47:58 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Oct-2023 13:51:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[21-Oct-2023 13:51:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[21-Oct-2023 13:55:32 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:55:32 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:55:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:55:33 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:55:33 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:55:33 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:55:35 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:55:35 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:55:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:55:40 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:55:40 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:55:40 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:55:55 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:55:55 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:55:55 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:56:04 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:56:05 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:56:05 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:56:05 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:56:12 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:56:12 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:56:12 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:39 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:40 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:40 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:40 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:40 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:40 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:40 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:41 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:41 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:41 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:42 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:42 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:42 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:57:46 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:57:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:57:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:59:43 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:59:43 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:59:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:59:43 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:59:43 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:59:43 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 13:59:50 Asia/Kolkata] PHP Warning:  Undefined array key "universalSearch" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 230
+[21-Oct-2023 13:59:50 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 13:59:50 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 14:43:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:47 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:48 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:50 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:50 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:50 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:50 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:50 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:50 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:51 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:51 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:51 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:51 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:52 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:52 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:52 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:52 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:52 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:52 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:53 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:54 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 281
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Warning:  Undefined variable $query in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 284
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP Stack trace:
+[21-Oct-2023 15:04:55 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php:0
+[21-Oct-2023 15:07:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY upd.university_id LIMIT 5 OFFSET 0' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php(292): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114

@@ -1,0 +1,550 @@
+[06-Aug-2023 18:52:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[06-Aug-2023 18:52:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:28 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/add.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[06-Aug-2023 22:14:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_collect_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$stud_fee_mode_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$student_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$session_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$course_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$specilization_fee_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$discount_id in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 247
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:14:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 248
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:19 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 249
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:30:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:52 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Warning:  Undefined array key "$feeCollectId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 250
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP Stack trace:
+[06-Aug-2023 22:31:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0

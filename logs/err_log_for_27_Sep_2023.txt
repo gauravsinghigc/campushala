@@ -1,0 +1,245 @@
+[27-Sep-2023 10:34:17 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[27-Sep-2023 10:35:51 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Warning:  Undefined variable $PostWord in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1608
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:00:36 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 1 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 2 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 3 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 4 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 5 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1605
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:05:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Warning:  Undefined array key 6 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1604
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Warning:  Undefined array key 7 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1604
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Warning:  Undefined array key 8 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1604
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Warning:  Undefined array key 9 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1604
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Warning:  Undefined array key 10 in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1604
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:20:35 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:26:27 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1627
+[27-Sep-2023 14:26:27 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:26:27 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:26:29 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1627
+[27-Sep-2023 14:26:29 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:26:29 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:26:41 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1627
+[27-Sep-2023 14:26:41 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:26:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:26:42 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1627
+[27-Sep-2023 14:26:42 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:26:42 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:26:44 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1627
+[27-Sep-2023 14:26:44 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:26:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:28:02 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1627
+[27-Sep-2023 14:28:02 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:28:02 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP Warning:  Undefined array key "speciid" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1594
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP Warning:  Undefined array key "sessionid" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1594
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php on line 1594
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 14:51:08 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php:0
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on string in /var/www/html/CampushalaNewProject/include/sections/View-Bde's-Details.php on line 1
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   2. include() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:259
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on string in /var/www/html/CampushalaNewProject/include/sections/View-Bde's-Details.php on line 11
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   2. include() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:259
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on string in /var/www/html/CampushalaNewProject/include/sections/Update-Bde's-Details.php on line 1
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   2. include() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:260
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on string in /var/www/html/CampushalaNewProject/include/sections/Update-Bde's-Details.php on line 11
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   2. include() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:260
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on string in /var/www/html/CampushalaNewProject/include/sections/Update-Bde's-Details.php on line 13
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 15:43:07 Asia/Calcutta] PHP   2. include() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:260
+[27-Sep-2023 16:03:18 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:03:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:03:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:03:18 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:03:18 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:03:18 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:04:05 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:04:05 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:04:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:04:05 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:04:05 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:04:05 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:04:54 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:04:54 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:04:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:04:54 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:04:54 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:04:54 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:05:12 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:05:12 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:05:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:05:12 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:05:12 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:05:12 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:07:13 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:07:13 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:07:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:07:13 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:07:13 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:07:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:09:09 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:09:09 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:09:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:09:09 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:09:09 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:09:09 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:12:55 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:12:55 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:12:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:12:55 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:12:55 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:12:55 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:14:13 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:14:13 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:14:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:14:13 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:14:13 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:14:13 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:15:45 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:15:45 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:15:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:15:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:15:45 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:15:45 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:16:04 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:16:04 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:16:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:16:04 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:16:04 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:16:04 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:16:38 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Add-New-Bde's.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:16:38 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:16:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:16:38 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Bde's.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/bdes/index.php on line 211
+[27-Sep-2023 16:16:38 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:16:38 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/index.php:0
+[27-Sep-2023 16:42:40 Asia/Calcutta] PHP Warning:  Undefined variable $value in /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php on line 82
+[27-Sep-2023 16:42:40 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:42:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php:0
+[27-Sep-2023 16:42:40 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on null in /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php on line 82
+[27-Sep-2023 16:42:40 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:42:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php:0
+[27-Sep-2023 16:42:53 Asia/Calcutta] PHP Warning:  Undefined variable $value in /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php on line 82
+[27-Sep-2023 16:42:53 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:42:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php:0
+[27-Sep-2023 16:42:53 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on null in /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php on line 82
+[27-Sep-2023 16:42:53 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:42:53 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php:0
+[27-Sep-2023 16:43:41 Asia/Calcutta] PHP Warning:  Undefined variable $value in /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php on line 173
+[27-Sep-2023 16:43:41 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:43:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php:0
+[27-Sep-2023 16:43:41 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on null in /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php on line 173
+[27-Sep-2023 16:43:41 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:43:41 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/veiw.php:0
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Warning:  Undefined variable $value in /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php on line 82
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php:0
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on null in /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php on line 82
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php:0
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Warning:  Undefined variable $value in /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php on line 84
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php:0
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on null in /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php on line 84
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:52:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php:0
+[27-Sep-2023 16:53:40 Asia/Calcutta] PHP Warning:  Undefined variable $value in /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php on line 82
+[27-Sep-2023 16:53:40 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:53:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php:0
+[27-Sep-2023 16:53:40 Asia/Calcutta] PHP Warning:  Attempt to read property "bdes_id" on null in /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php on line 82
+[27-Sep-2023 16:53:40 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 16:53:40 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/bdes/edit.php:0
+[27-Sep-2023 17:10:44 Asia/Calcutta] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php on line 46
+[27-Sep-2023 17:10:44 Asia/Calcutta] PHP Stack trace:
+[27-Sep-2023 17:10:44 Asia/Calcutta] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php:0
+[27-Sep-2023 17:32:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in /var/www/html/CampushalaNewProject/require/module/crud.php:131
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(131): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/BdesAjaxController.php(61): TOTAL()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 131
+[27-Sep-2023 17:43:06 Asia/Calcutta] PHP Parse error:  syntax error, unexpected single-quoted string ",", expecting "]" in /var/www/html/CampushalaNewProject/require/module/add-ons.php on line 172

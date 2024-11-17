@@ -1,0 +1,965 @@
+[14-Oct-2023 10:27:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[14-Oct-2023 10:28:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[14-Oct-2023 10:31:11 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column `newCampushala`.`students_leadSource_and_bdeDetails`.`bde_id` at row 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:482
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(482): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/StudentsController.php(37): INSERT()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 482
+[14-Oct-2023 11:38:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 11:42:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_n...' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(98): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 11:45:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_n...' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(98): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 11:46:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_n...' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(98): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 11:46:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_n...' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(98): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 11:46:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (sfc.fee_mode='Semesters Wise' OR sfc.fee_mode='N/A') AND (sfc.fee_mode_n...' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(98): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 14:07:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[14-Oct-2023 14:07:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[14-Oct-2023 15:26:10 Asia/Kolkata] PHP Warning:  Undefined variable $sqlFilters in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 119
+[14-Oct-2023 15:26:10 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:26:10 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:26:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 5 OFFSET 0' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(171): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:26:35 Asia/Kolkata] PHP Warning:  Undefined variable $sqlFilters in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 119
+[14-Oct-2023 15:26:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:26:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:26:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 5 OFFSET 0' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(171): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:27:28 Asia/Kolkata] PHP Warning:  Undefined variable $sqlFilters in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 119
+[14-Oct-2023 15:27:28 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:27:28 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:27:28 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 5 OFFSET 0' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(171): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:28:11 Asia/Kolkata] PHP Warning:  Undefined variable $sqlFilters in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 119
+[14-Oct-2023 15:28:11 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:28:11 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:28:11 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 5 OFFSET 0' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(172): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:28:14 Asia/Kolkata] PHP Warning:  Undefined variable $sqlFilters in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 119
+[14-Oct-2023 15:28:14 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:28:14 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:28:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 5 OFFSET 0' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(172): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:28:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 5 OFFSET 0' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(172): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:28:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(172): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:30:09 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(172): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:30:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 8 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(176): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 265
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:31:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 265
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:53:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 265
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:02 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 265
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:54:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:56:06 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:56:23 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 209
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 211
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 214
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 217
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 232
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 265
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 15:57:37 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $style in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$stud_reg_status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 212
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $StatusClass in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $Status in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 213
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 245
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:08:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 16:10:16 Asia/Kolkata] PHP Warning:  Undefined variable $totalRecords in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 239
+[14-Oct-2023 16:10:16 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 16:10:16 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 17:02:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.universities_courses_offers' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(253): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/StudentAjaxController.php(127): FETCH()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "university_emails_id" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 128
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "university_gst" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 132
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_address" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 136
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_sector" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 140
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_landmark" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 144
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_city" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 148
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_state" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 152
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_country" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 156
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Undefined variable $val in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "univ_reg_pincode" on null in /var/www/html/CampushalaNewProject/admin/account/university/view.php on line 171
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:02:21 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/view.php:0
+[14-Oct-2023 17:11:24 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sfc.stud_fee_mode_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(177): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[14-Oct-2023 17:41:00 Asia/Kolkata] PHP Warning:  Undefined variable $sqlFilters in /var/www/html/CampushalaNewProject/controller/FeeController.php on line 122
+[14-Oct-2023 17:41:00 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:41:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/FeeController.php:0
+[14-Oct-2023 17:48:32 Asia/Kolkata] PHP Warning:  include(../../..//include/sections/Add-New-Invoices.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[14-Oct-2023 17:48:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:48:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/invoice/index.php:0
+[14-Oct-2023 17:48:32 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../..//include/sections/Add-New-Invoices.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/invoice/index.php on line 224
+[14-Oct-2023 17:48:32 Asia/Kolkata] PHP Stack trace:
+[14-Oct-2023 17:48:32 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/invoice/index.php:0

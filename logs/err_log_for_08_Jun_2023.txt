@@ -1,0 +1,115 @@
+[08-Jun-2023 17:07:31 Asia/Calcutta] PHP Warning:  Undefined array key 3 in /var/www/html/CampushalaNewProject/admin/account/courses/edit.php on line 205
+[08-Jun-2023 17:07:37 Asia/Calcutta] PHP Warning:  Undefined array key 3 in /var/www/html/CampushalaNewProject/admin/account/courses/edit.php on line 205
+[08-Jun-2023 17:08:09 Asia/Calcutta] PHP Warning:  Undefined array key 3 in /var/www/html/CampushalaNewProject/admin/account/courses/edit.php on line 205
+[08-Jun-2023 17:08:09 Asia/Calcutta] PHP Warning:  Undefined array key 3 in /var/www/html/CampushalaNewProject/admin/account/courses/edit.php on line 248
+[08-Jun-2023 17:34:49 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/View-University-Details.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/university/index.php on line 211
+[08-Jun-2023 17:34:49 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/View-University-Details.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/university/index.php on line 211
+[08-Jun-2023 17:40:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:40:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:42:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:42:42 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:43:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:44:58 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:45:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:46:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:48:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:52:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 148
+[08-Jun-2023 17:53:34 Asia/Calcutta] PHP Warning:  Attempt to read property "course_session_year" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 101
+[08-Jun-2023 17:53:34 Asia/Calcutta] PHP Warning:  Attempt to read property "course_session_year" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 101
+[08-Jun-2023 17:53:34 Asia/Calcutta] PHP Warning:  Attempt to read property "course_session_year" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 101
+[08-Jun-2023 17:53:34 Asia/Calcutta] PHP Warning:  Attempt to read property "university_id" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 149
+[08-Jun-2023 17:53:53 Asia/Calcutta] PHP Warning:  Attempt to read property "university_id" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 149
+[08-Jun-2023 18:08:28 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 120
+[08-Jun-2023 18:09:03 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 120
+[08-Jun-2023 18:09:26 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 120
+[08-Jun-2023 18:09:57 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 120
+[08-Jun-2023 18:10:37 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 120
+[08-Jun-2023 18:11:37 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 117
+[08-Jun-2023 18:11:37 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 121
+[08-Jun-2023 18:13:23 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_status" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 122
+[08-Jun-2023 18:14:08 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_status" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 124
+[08-Jun-2023 18:14:51 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 124
+[08-Jun-2023 18:15:30 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 124
+[08-Jun-2023 18:16:27 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 124
+[08-Jun-2023 18:16:57 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_pincode" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 124
+[08-Jun-2023 18:17:11 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_state" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 124
+[08-Jun-2023 18:21:34 Asia/Calcutta] PHP Warning:  Attempt to read property "univ_reg_state" on string in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 130
+[08-Jun-2023 20:41:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[08-Jun-2023 20:43:22 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 24
+[08-Jun-2023 20:43:22 Asia/Calcutta] PHP Warning:  Undefined array key "CourseSessionYearId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 24
+[08-Jun-2023 21:13:07 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/index.php(53): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[08-Jun-2023 21:13:18 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 132
+[08-Jun-2023 21:14:46 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 132
+[08-Jun-2023 21:15:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 132
+[08-Jun-2023 21:15:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 132
+[08-Jun-2023 21:17:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(14): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[08-Jun-2023 21:17:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(14): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[08-Jun-2023 21:18:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(14): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[08-Jun-2023 21:18:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(14): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[08-Jun-2023 21:18:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'upd.course_id' in 'on clause' in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php(14): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/admin/account/university/index.php(211): include('...')
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[08-Jun-2023 21:22:09 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in /var/www/html/CampushalaNewProject/include/sections/View-University-Details.php on line 151
+[08-Jun-2023 22:01:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[08-Jun-2023 22:18:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:19:43 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:20:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:21:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:22:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:22:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:22:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$university_id in /var/www/html/CampushalaNewProject/include/sections/Update-University-Details.php on line 148
+[08-Jun-2023 22:28:16 Asia/Calcutta] PHP Warning:  include(../../..//include/sections/Update-University-Details.php): Failed to open stream: No such file or directory in /var/www/html/CampushalaNewProject/admin/account/university/index.php on line 212
+[08-Jun-2023 22:28:16 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/sections/Update-University-Details.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/CampushalaNewProject/admin/account/university/index.php on line 212
+[08-Jun-2023 23:09:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 197
+[08-Jun-2023 23:09:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 197
+[08-Jun-2023 23:09:47 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 197
+[08-Jun-2023 23:09:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 197
+[08-Jun-2023 23:09:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 197
+[08-Jun-2023 23:09:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$univ_course_session_year in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 197
+[08-Jun-2023 23:21:13 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 37
+[08-Jun-2023 23:22:02 Asia/Calcutta] PHP Warning:  Undefined array key "CourseNameId" in /var/www/html/CampushalaNewProject/controller/UniversityAjaxController.php on line 37

@@ -1,0 +1,101 @@
+[26-Jul-2023 13:47:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Jul-2023 13:47:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Jul-2023 14:40:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/add.php(50): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Jul-2023 14:41:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Jul-2023 20:49:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[26-Jul-2023 20:49:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[26-Jul-2023 21:17:50 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 508
+[26-Jul-2023 21:17:50 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[26-Jul-2023 21:17:50 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/require/module/crud.php on line 509
+[26-Jul-2023 21:17:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /var/www/html/CampushalaNewProject/require/module/crud.php:516
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(516): htmlentities()
+#1 /var/www/html/CampushalaNewProject/controller/UniversityController.php(119): INSERT_DATA_WITHOUT_RESPONSE()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 516
+[26-Jul-2023 21:22:46 Asia/Calcutta] PHP Warning:  Undefined array key "$key" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 115
+[26-Jul-2023 21:22:46 Asia/Calcutta] PHP Warning:  Undefined array key "$key" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 115
+[26-Jul-2023 21:44:53 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:44:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityController.php(652): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[26-Jul-2023 21:46:25 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:46:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityController.php(652): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[26-Jul-2023 21:46:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3'' at line 1 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityController.php(652): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[26-Jul-2023 21:47:18 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:47:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.univ_course_specialization_name' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityController.php(652): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[26-Jul-2023 21:47:47 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:47:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'newCampushala.univ_course_specialization_name' doesn't exist in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/UniversityController.php(652): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[26-Jul-2023 21:49:26 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:50:02 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:50:21 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:52:37 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:53:09 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:55:46 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:56:02 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:56:04 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 651
+[26-Jul-2023 21:56:30 Asia/Calcutta] PHP Warning:  Array to string conversion in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 655
+[26-Jul-2023 22:29:16 Asia/Calcutta] PHP Warning:  Undefined array key "courseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:29:16 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:29:18 Asia/Calcutta] PHP Warning:  Undefined array key "courseId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:29:18 Asia/Calcutta] PHP Warning:  Undefined array key "UniversityId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:35:23 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:37:35 Asia/Calcutta] PHP Warning:  Undefined array key "universityId" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:41:12 Asia/Calcutta] PHP Warning:  Undefined array key "universityIdForSpecIdTut" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:41:31 Asia/Calcutta] PHP Warning:  Undefined array key "universityIdForSpecIdTut" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664
+[26-Jul-2023 22:41:46 Asia/Calcutta] PHP Warning:  Undefined array key "universityIdForSpecIdTut" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 664

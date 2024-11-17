@@ -1,0 +1,238 @@
+[31-Jul-2023 09:32:47 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[31-Jul-2023 09:32:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[31-Jul-2023 10:43:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[31-Jul-2023 10:43:21 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[31-Jul-2023 10:43:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'student_id' in order clause is ambiguous in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(14): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 10:46:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'student_id' in order clause is ambiguous in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(14): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:18:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'student_id' in order clause is ambiguous in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeesCollectionController.php(14): FETCH_DB_TABLE()
+#3 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:22 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:23 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:25 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:27 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:41:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(118): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:31 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:41 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:42 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:45 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:43:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:45:56 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: The used SELECT statements have a different number of columns in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(77): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:53:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 10' at line 9 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:53:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 10' at line 9 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:54:02 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 10' at line 9 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:54:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 10' at line 9 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 12:54:05 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0, 10' at line 9 in /var/www/html/CampushalaNewProject/require/module/crud.php:114
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/crud.php(114): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/require/module/crud.php(302): SELECT()
+#2 /var/www/html/CampushalaNewProject/controller/FeeController.php(76): FETCH_DB_TABLE()
+#3 /var/www/html/CampushalaNewProject/controller/FeeController.php(33): fetchTableDataWithFiltersAndPagination()
+#4 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/crud.php on line 114
+[31-Jul-2023 14:41:06 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:62
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/fees/index.php(52): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 62
+[31-Jul-2023 14:41:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15

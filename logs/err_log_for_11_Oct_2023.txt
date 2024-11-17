@@ -1,0 +1,167 @@
+[11-Oct-2023 10:32:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/index.php(43): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[11-Oct-2023 10:32:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 10:33:00 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 12:32:42 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/update.php(64): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[11-Oct-2023 12:33:27 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 12:33:35 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 13:21:04 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 14:27:41 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/update.php(64): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[11-Oct-2023 14:27:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 14:27:51 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2979
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2982
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2991
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Warning:  Undefined array key "totalFee" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2994
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:28 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2979
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2982
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2991
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Warning:  Undefined array key "totalFee" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2994
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:22:30 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2979
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2982
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2991
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Warning:  Undefined array key "totalFee" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2994
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:18 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2979
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2982
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Warning:  Undefined array key "feesMode" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2991
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Warning:  Undefined array key "totalFee" in /var/www/html/CampushalaNewProject/controller/UniversityController.php on line 2994
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:23:41 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/controller/UniversityController.php:0
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 15:27:39 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 16:11:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserProfileImage" in /var/www/html/CampushalaNewProject/include/admin/header.php:66
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/admin/account/university/update.php(64): include()
+#1 {main}
+  thrown in /var/www/html/CampushalaNewProject/include/admin/header.php on line 66
+[11-Oct-2023 16:11:43 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'systeminfo' at row 1 in /var/www/html/CampushalaNewProject/require/module/applogs.php:15
+Stack trace:
+#0 /var/www/html/CampushalaNewProject/require/module/applogs.php(15): mysqli_query()
+#1 /var/www/html/CampushalaNewProject/controller/authcontroller.php(26): APP_LOGS()
+#2 {main}
+  thrown in /var/www/html/CampushalaNewProject/require/module/applogs.php on line 15
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 16:11:50 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 17:40:46 Asia/Kolkata] PHP Warning:  Undefined variable $UnivCourseSpecYrFeeId in /var/www/html/CampushalaNewProject/admin/account/university/update.php on line 275
+[11-Oct-2023 17:40:46 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:40:46 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/update.php:0
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:51:33 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 208
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 211
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$univ_course_id in /var/www/html/CampushalaNewProject/admin/account/university/edit.php on line 224
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP Stack trace:
+[11-Oct-2023 17:51:45 Asia/Kolkata] PHP   1. {main}() /var/www/html/CampushalaNewProject/admin/account/university/edit.php:0
